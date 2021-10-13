@@ -22,16 +22,15 @@
     <form action="Tut_2_25c.php" method="POST">
     
     Ingrese El nuevo nombre del Curso:
-    <input type="text" name="cursonuevo" value="<?php echo $reg['cursonuevo']?>" >
+    <input type="text" name="cursonuevo" value="<?php echo $reg['nombre']?>" >
     <br>
-    <input type="hidden" name="codigo" value="<?php echo $reg['codigo'] ?>">
+    <input type="hidden" name="codigo" value="<?php echo $reg['codigocurso'] ?>">
     <input type="submit" value="modificar">
     </form>
     <?php
     }
     else{
 
-    
         echo "No existe curso con ese nombre";
     }
     ?>
