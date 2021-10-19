@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<body>
-  <form action="pagina2.php" method="post">
+
+  <form action="Tut_2_27b.php" method="post">
     Ingrese el codigo del alumno:
     <input type="text" name="codigo">
     <br>
     <input type="submit" value="buscar">
   </form>
+
 </body>
-</body>
+
 </html>
 
 
