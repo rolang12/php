@@ -26,8 +26,8 @@
 
       <select name="codigocurso">
         <?php
-          $registros = mysqli_query($conexion, "SELECT * from cursos") or
-            die("Problemas en el select:" . mysqli_error($conexion));
+          $registros = mysqli_query($conexion, "SELECT * from cursos") or die("Problemas en el select:" . mysqli_error($conexion));
+          
           while ($reg = mysqli_fetch_array($registros)) {
             if ($regalu['codigocurso'] == $reg['codigo'])
               echo "<option value=\"$reg[codigo]\" selected>$reg[nombre_c]</option>";
