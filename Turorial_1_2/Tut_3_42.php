@@ -9,12 +9,13 @@
 <body>
     <form action="Tut_3_42b.php" method="post">
     Digite su nombre:
-    <input type="text" name="nombre" id=""><br><br>
+    <input type="text" required name="nombre" id=""><br><br>
     Escribe tu queja:
-    <input type="textarea" name="queja" id=""><br><br>
+    <input type="textarea" required  name="queja" id=""><br><br>
 
+    <input type="submit" name="enviar" value="Enviar" ><br> <br>
     
   
-    <a href="Tut_3_42b.php">Ver todas las quejas</a>
+    <a href="Tut_3_42c.php">Ver todas las quejas</a>
 </body>
 </html>
