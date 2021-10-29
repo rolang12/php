@@ -9,7 +9,7 @@
 <body>
     
     <?php 
-    include_once 'Tut_3_36.php';
+    include_once 'Tut_3_38.php';
     $all_reg = mysqli_query($conexion, "SELECT * from alumnos");
     ?>
     <table>
