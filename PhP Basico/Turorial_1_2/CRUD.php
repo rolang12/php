@@ -71,9 +71,9 @@ $(document).ready(function(){
                         <td><?php echo $usuario['mail'] ?></td>
                         <td><?php echo $usuario['nombre_c'] ?></td>
                         <td>
-                            <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
-                        </td>
-                        <td><a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a></td>
+                            <a href="<?php echo 'Update.php?codigo='.$usuario['codigo'] ?> " class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                        </td> 
+                        <td><a href="<?php echo 'delete.php?codigo='.$usuario['codigo'] ?>"  class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a></td>
                     </tr>
                    <?php } ?>
                 </tbody>
