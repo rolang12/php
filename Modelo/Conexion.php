@@ -9,7 +9,7 @@ class Conexion
 
     public function abrir()
     {
-        $this->mySQLI = new mysqli("localhost", "root", "", "citas");
+        $this->mySQLI = new mysqli("localhost", "root", "", "citas","3307");
         if (mysqli_connect_error()) {
             return 0;
         } else {
@@ -39,7 +39,7 @@ class Conexion
     {
         return $this->filasAfectadas;
     }
-    
+
     public function obtenerCitaId()
     {
         return $this->citaId;
