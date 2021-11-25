@@ -23,7 +23,12 @@ class Controlador
     public function cancelarCitas($doc){
         $gestorCita = new GestorCita();
         $result = $gestorCita->consultarCitasPorDocumento($doc);
-        require_once 'Vista/html/cancelarCitas.php';
+        require_once './Vista/html/cancelarCitas.php';
     }
     
+    public function consultarPaciente($doc){
+        $gestorCita = new GestorCita();
+        $result = $gestorCita->consultarPaciente($doc);
+        require_once 'Vista/html/consultarPaciente.php';
+    }
 }

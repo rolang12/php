@@ -43,7 +43,9 @@ class GestorCita {
             WHERE CitPaciente = '$doc' 
             AND CitEstado = 'Solicitada' ";
         $conexion->consulta($sql);
+    
         $result = $conexion->obtenerResult();
+        var_dump($result);
         $conexion->cerrar();
         return $result;
     }

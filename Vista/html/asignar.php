@@ -2,8 +2,12 @@
 <html>
 
 <head>
+
     <title>Sistema de Gestión Odontológica</title>
     <link rel="stylesheet" type="text/css" href="Vista/css/estilos.css">
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./jquery/jquery-3.2.1-min.js"></script>
+
 </head>
 
 <body>
@@ -25,7 +29,8 @@
                         <td><input type="text" name="asignarDocumento" id="asignarDocumento"></ td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input type="button" value="Consultar" name="asignarConsultar" id="asignarConsultar"></td>
+                        <td colspan="2"><input type="button" value="Consultar" name="asignarConsultar"
+                        id="asignarConsultar" onclick="consultarPaciente()"></td>
                     </tr>
                     <tr>
                         <td colspan="2">

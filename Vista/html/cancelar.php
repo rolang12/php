@@ -2,8 +2,13 @@
 <html>
 
 <head>
+   
     <title>Sistema de Gestión Odontológica</title>
     <link rel="stylesheet" type="text/css" href="Vista/css/estilos.css">
+    <script type="text/javascript" src="./js/script.js"></script>
+
+    <script type="text/javascript" src="./jquery/jquery-3.2.1-min.js"></script>
+    
 </head>
 
 <body>
@@ -13,7 +18,7 @@
         </div>
         <ul id="menu">
             <li><a href="index.php">inicio</a> </li>
-            <li ><a href="index.php?accion=asignar">Asignar</a> </li>
+            <li><a href="index.php?accion=asignar">Asignar</a> </li>
             <li><a href="index.php?accion=consultar">Consultar Cita</a> </li>
             <li class="active"><a href="index.php?accion=cancelar">Cancelar Cita</a> </li>
         </ul>

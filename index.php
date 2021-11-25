@@ -34,7 +34,11 @@ if (isset($_GET["accion"])) {
         $controlador->consultarCitas($_POST["consultarDocumento"]);
         
     } elseif($_GET["accion"] == "cancelarCita") {
+        
         $controlador->cancelarCitas($_POST["cancelarDocumento"]);
+    } elseif($_GET["accion"] == "ConsultarPaciente"){
+
+        $controlador->consultarPaciente($_GET["documento"]);
     }
     
 
