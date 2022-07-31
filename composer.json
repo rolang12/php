@@ -1,0 +1,19 @@
+{
+    "name": "rolan/blog",
+    "description": "practica de php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rolan\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rolan",
+            "email": "roldpieres@misena.edu.co",
+            "Controllers\\": "Controllers/",
+            "Models\\": "Models/"
+        }
+    ],
+    "require": {}
+}
